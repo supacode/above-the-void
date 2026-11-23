@@ -6,6 +6,7 @@
 [ext_resource type="PackedScene" uid="uid://plmb400pjmh1" path="res://scenes/coin.tscn" id="4_lbhrr"]
 [ext_resource type="PackedScene" uid="uid://b45miwptpo5nr" path="res://scenes/killzone.tscn" id="5_iywne"]
 [ext_resource type="PackedScene" uid="uid://b1ou6hcxernc3" path="res://scenes/slime.tscn" id="6_p57ef"]
+[ext_resource type="Script" path="res://scripts/camera.gd" id="7_cam"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_iywne"]
 texture = ExtResource("2_yqjtg")
@@ -350,6 +351,7 @@ z_as_relative = false
 position = Vector2(32, 134)
 
 [node name="Camera2D" type="Camera2D" parent="Player" unique_id=436123514]
+script = ExtResource("7_cam")
 position = Vector2(112, -38)
 zoom = Vector2(4, 4)
 limit_bottom = 170
