@@ -1,6 +1,6 @@
 [gd_scene format=3 uid="uid://plmb400pjmh1"]
 
-[ext_resource type="Script" uid="uid://bxc5iswmkutju" path="res://scripts/coin.gd" id="1_i64fm"]
+[ext_resource type="Script" path="res://scripts/Coin.cs" id="1_i64fm"]
 [ext_resource type="Texture2D" uid="uid://mwvotl2ixbss" path="res://assets/sprites/coin.png" id="1_rwqht"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_i64fm"]
@@ -108,4 +108,4 @@ autoplay = "default"
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=914441555]
 shape = SubResource("CircleShape2D_rwqht")
 
-[connection signal="body_entered" from="." to="." method="_on_body_entered"]
+[connection signal="body_entered" from="." to="." method="OnBodyEntered"]

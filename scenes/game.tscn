@@ -6,7 +6,7 @@
 [ext_resource type="PackedScene" uid="uid://plmb400pjmh1" path="res://scenes/coin.tscn" id="4_lbhrr"]
 [ext_resource type="PackedScene" uid="uid://b45miwptpo5nr" path="res://scenes/killzone.tscn" id="5_iywne"]
 [ext_resource type="PackedScene" uid="uid://b1ou6hcxernc3" path="res://scenes/slime.tscn" id="6_p57ef"]
-[ext_resource type="Script" path="res://scripts/camera.gd" id="7_cam"]
+[ext_resource type="Script" path="res://scripts/GameCamera.cs" id="7_cam"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_iywne"]
 texture = ExtResource("2_yqjtg")
